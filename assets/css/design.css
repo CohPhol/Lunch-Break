@@ -1,0 +1,8 @@
+body{
+    background-color: black;
+}
+.lunch-break{
+    position: absolute;
+    color: white;
+    font-size: 5rem;
+}
