@@ -1,6 +1,31 @@
-$(document).ready(function() {
-    console.log("ASDASD");
-});
+// $(document).ready(function() {
+//     let $lunchText = $('#lunch-break');
+//     let xIncrement = 1;
+//     let yIncrement = 1;
+
+//     function handleCollision() {
+//       let offset = $lunchText.offset();
+//       let textHeight = $lunchText.height();
+//       let textWidth = $lunchText.width();
+//       let windowHeight = $(window).height();
+//       let windowWidth = $(window).width();
+
+//       if (offset.left <= 0 || offset.left + textWidth >= windowWidth)
+//         xIncrement = -xIncrement;
+//       if (offset.top <= 0 || offset.top + textHeight >= windowHeight)
+//         yIncrement = -yIncrement;
+//     }
+
+//     function frame() {
+//       handleCollision();
+//       $lunchText.css({
+//         top: '+=' + yIncrement,
+//         left: '+=' + xIncrement
+//       });
+//     }
+
+//     setInterval(frame, 5);
+// });
 
 let lunch_text = document.getElementById('lunch-break');
 let x_increment = 1;
